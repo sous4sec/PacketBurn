@@ -187,12 +187,12 @@ if __name__ == "__main__":
                     print(colored("\n[+] Interrompendo ataque e restaurando a rede...", 'green'))
                     arp.restore_network(target_ip)
             
-            elif attack_type == 3:  # Opção ARP Spoofing Killer
+            elif attack_type == 3:
                 arp = ARPSpoofing(scanner.gateway_ip)
                 arp.arpspoof_killer(target_ip, duration=None)  # Ataque por tempo indefinido
 
         elif choice == 3:
-            # Atacar todos os dispositivos menos o local
+          
             print(colored("[+] Iniciando ataque em todos os dispositivos (exceto o seu)...", 'red'))
             arp = ARPSpoofing(scanner.gateway_ip)
 
