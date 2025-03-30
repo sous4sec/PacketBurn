@@ -30,7 +30,7 @@ Se deseja rodar o projeto no **Windows**, será necessário instalar o **Npcap**
 2. Instale as dependências mencionadas anteriormente.  
 3. Execute o script com permissões elevadas (**como administrador**):  
    ```powershell
-   python PacketBur.py
+   python PacketBurn.py
    ```
 > ⚠ Algumas funcionalidades, como o ataque Deauth, podem **não funcionar corretamente no Windows** devido a limitações no suporte ao modo monitor.  
 
